@@ -27,3 +27,8 @@ console.log(numArray)
 console.log(numArray.slice(1, numArray.length))
 //concat to combine 2 arrays: const b = a1.concat(a2)
 //or use something like this: const b = [...a1, ...a2]
+
+
+//.fill
+const b = Array(6).fill(4)
+console.log(b)
