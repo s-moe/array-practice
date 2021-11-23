@@ -32,3 +32,7 @@ console.log(numArray.slice(1, numArray.length))
 //.fill
 const b = Array(6).fill(4)
 console.log(b)
+//destructuring
+const [first, second, third, ...others] = b
+console.log(b)
+console.log(b[first])
