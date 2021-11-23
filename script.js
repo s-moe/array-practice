@@ -33,6 +33,13 @@ console.log(numArray.slice(1, numArray.length))
 const b = Array(6).fill(4)
 console.log(b)
 //destructuring
-const [first, second, third, ...others] = b
+// const [first, second, third, ...others] = b
 console.log(b)
-console.log(b[first])
+// console.log(b[first])
+
+const fruit = ['apple', 'pear', 'pineapple']
+//can be named anything, it's concerned to the position
+const [first, second, third] = fruit
+console.log(fruit)
+console.log(first)
+console.log(second)
