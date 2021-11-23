@@ -18,7 +18,7 @@ numArray.slice(0, 1)
 numArray.slice(2, 4)
 const newNumArray = [
   ...numArray.slice(0,1),
-  ...numArray.slice(2, 4)
+  ...numArray.slice(2, 3)
 
 ]
 console.log(newNumArray)
