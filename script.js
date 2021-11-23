@@ -22,3 +22,6 @@ const newNumArray = [
 
 ]
 console.log(newNumArray)
+console.log(numArray)
+// numArray.length is used to get the end of the array
+console.log(numArray.slice(1, numArray.length))
