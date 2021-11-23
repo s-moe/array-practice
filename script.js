@@ -25,3 +25,5 @@ console.log(newNumArray)
 console.log(numArray)
 // numArray.length is used to get the end of the array
 console.log(numArray.slice(1, numArray.length))
+//concat to combine 2 arrays: const b = a1.concat(a2)
+//or use something like this: const b = [...a1, ...a2]
