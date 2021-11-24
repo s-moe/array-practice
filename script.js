@@ -43,3 +43,11 @@ const [first, second, third] = fruit
 console.log(fruit)
 console.log(first)
 console.log(second)
+// arrays are not === to each other
+//this will return false
+console.log([1, 2, 3] === [1, 2, 3])
+
+const nums = [1, 2, 3]
+const numsCopy = nums
+//this will return true because of its reference being the same
+console.log(nums === numsCopy)
