@@ -51,3 +51,4 @@ const nums = [1, 2, 3]
 const numsCopy = nums
 //this will return true because of its reference being the same
 console.log(nums === numsCopy)
+//as long as the shell of the array remains the same, it's fine to change/reassign the content
